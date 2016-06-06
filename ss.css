@@ -26,12 +26,12 @@ body
 	box-shadow:0px 0px 20px gray;
 	transition:0.5s;
 	transition-timing-function:ease;
-	transform:translate(500px,50px);
 }
 
 .button:hover
 {
 	transform:rotate(180deg);
+	transform:translate(500px,50px);
 }
 
 
