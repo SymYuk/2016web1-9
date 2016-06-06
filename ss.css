@@ -1,21 +1,52 @@
 @charset "UTF-8"
 
-body{
-background-image:url(),url();}
+body
+{
+	background-image:url(),url();
+}
 
-.grad{
-background-color:red;
-background:linear-gradient
-(90deg,
-orangered 0%
-white 50%
-orange 100%);}
+.grad
+{
+	background-color:red;
+	background:linear-gradient
+	(90deg,
+	orangered 0%
+	white 50%
+	orange 100%);
+}
 
-.button{
-display:block;
-margin:5px;
-padding:10px;
-width:256px;}
+.button a
+{
+	<!--通常-->
+	display:block;
+	margin:5px;
+	padding:10px;
+	width:256px;
+	text-align:center;
+	border-radius:10px 20px 30px;
+	color:white;
+	font-weight:bold;
+	background-color:white;
+	<!--グラデーション-->
+	background:linear-gradient
+	(
+	0deg,
+	navajowhite 0%,
+	sandybrown 50%
+	);
+	<!--テキストシャドウ-->
+	text-shadow:0px 0px 5px white,
+	1px 1px 10px palegreen,
+	2px 2px 10px palegreen,
+	3px 3px 10px palegreen;
+	<!--ボックスシャドウ-->
+	box-shadow:0px 0px 20px gray;
+}
 
-.skew{
-transform:skew(45deg,60deg);}
+.button a:hover
+{
+
+.skew
+{
+	transform:skew(45deg,60deg);
+}
