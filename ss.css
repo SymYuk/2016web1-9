@@ -17,7 +17,6 @@ body
 
 .button
 {
-	<!--通常-->
 	display:block;
 	font-size:24px;
 	margin:5px;
@@ -28,12 +27,7 @@ body
 	color:black;
 	background-color:white;
 	font-weight:bold;
-	background:linear-gradient
-	(
-	0deg,
-	navajowhite 0%,
-	sandybrown 50%
-	);
+	background:linear-gradient(0deg, navajowhite 0%, sandybrown 50% chocolate 100%);
 	text-shadow:0px 0px 5px white,
 	1px 1px 10px palegreen,
 	2px 2px 10px palegreen,
