@@ -2,7 +2,8 @@
 
 body
 {
-	background-image:url(),url();
+	background-image:url(./suwaru.png),url(./bg.png);
+	background-size:cover;
 }
 
 .button
