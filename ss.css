@@ -1,10 +1,5 @@
 @charset "UTF-8"
 
-body
-{
-	background-image:url(suwaru.png), url(bg.png);
-}
-
 .button
 {
 	display:block;
@@ -30,4 +25,9 @@ body
 .button:hover
 {
 	transform:rotate(180deg);
+}
+
+body
+{
+	background-image:url(suwaru.png), url(bg.png);
 }
