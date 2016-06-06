@@ -24,7 +24,8 @@ body
 	width:256px;
 	text-align:center;
 	border-radius:10px 20px 30px;
-	color:white;
+	color:black;
+	background-color:white;
 	font-weight:bold;
 	
 }
