@@ -27,13 +27,14 @@ body
 	color:white;
 	font-weight:bold;
 	background-color:white;
-	<!--グラデーション-->
+	<!--グラデーション
 	background:linear-gradient
 	(
 	0deg,
 	navajowhite 0%,
 	sandybrown 50%
 	);
+	-->
 	<!--テキストシャドウ-->
 	text-shadow:0px 0px 5px white,
 	1px 1px 10px palegreen,
