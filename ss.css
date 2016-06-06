@@ -1,12 +1,5 @@
 @charset "UTF-8"
 
-body
-{
-	background-image:url(suwaru.png), url(bg.png);
-	background-repeat:no-repeat,no-repeat;
-	background-color:lightcyan;
-	margin:20px;
-}
 
 .button
 {
@@ -33,4 +26,12 @@ body
 .button:hover
 {
 	transform:rotate(180deg);
+}
+
+body
+{
+	background-image:url(suwaru.png), url(bg.png);
+	background-repeat:no-repeat,no-repeat;
+	background-color:lightcyan;
+	margin:20px;
 }
