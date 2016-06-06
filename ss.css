@@ -30,4 +30,5 @@
 body
 {
 	background-image:url(suwaru.png), url(bg.png);
+	background-repeat:no-repeat,no-repeat;
 }
