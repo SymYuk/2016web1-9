@@ -15,7 +15,7 @@ body
 	orange 100%);
 }
 
-.button a
+.button
 {
 	<!--通常-->
 	display:block;
@@ -43,7 +43,7 @@ body
 	box-shadow:0px 0px 20px gray;
 }
 
-.button a:hover
+.button:hover
 {
 
 .skew
