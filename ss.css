@@ -31,7 +31,7 @@ body
 
 .button:hover
 {
-	transform:rotate(180deg),translate(500px,50px);
+	transform:rotate(180deg);
 }
 
 
