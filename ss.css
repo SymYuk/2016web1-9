@@ -34,7 +34,7 @@ body
 	2px 2px 10px palegreen,
 	3px 3px 10px palegreen;
 	box-shadow:0px 0px 20px gray;
-	transform:0.5s;
+	transition:0.5s;
 }
 
 .button:hover
