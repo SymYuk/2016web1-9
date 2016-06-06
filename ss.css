@@ -5,6 +5,11 @@ body
 	background-image:url(),url();
 }
 
+h1
+{
+	font-size:32px;
+}
+
 .button
 {
 	display:block;
