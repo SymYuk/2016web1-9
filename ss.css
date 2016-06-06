@@ -5,17 +5,6 @@ body
 	background-image:url(),url();
 }
 
-.grad
-{
-	background-color:red;
-	background:linear-gradient
-	(90deg,
-	orangered 0%
-	white 50%
-	orange 100%);
-}
-
-
 .button
 {
 	display:block;
@@ -35,13 +24,10 @@ body
 	3px 3px 10px palegreen;
 	box-shadow:0px 0px 20px gray;
 	transition:0.5s;
+	transition-timing-function:ease;
 }
 
 .button:hover
 {
 	transform:rotate(180deg);
-}
-.skew
-{
-	transform:skew(45deg,60deg);
 }
