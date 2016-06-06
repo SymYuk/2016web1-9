@@ -27,10 +27,7 @@ body
 	color:black;
 	background-color:white;
 	font-weight:bold;
-	
-}
-
-<!--グラデーション-->
+	<!--グラデーション-->
 	background:linear-gradient
 	(
 	0deg,
@@ -44,6 +41,9 @@ body
 	3px 3px 10px palegreen;
 	<!--ボックスシャドウ-->
 	box-shadow:0px 0px 20px gray;
+}
+
+
 
 
 .button:hover
